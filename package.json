@@ -2,9 +2,9 @@
   "name": "ts-parcel-boilerplate",
   "version": "1.0.0",
   "description": "a boilerplate for ts and parcel bundler, based on Brad Traversy's JS boilerplate",
-  "main": "index.ts",
+  "main": "index.tsx",
   "scripts": {
-    "dev": "npm run clean && parcel public/index.html --out-dir development - p 4000",
+    "dev": "npm run clean && parcel public/index.html --out-dir development -p 4000",
     "build": "parcel build public/*.html --out-dir dist --public-url ./",
     "clean": "rimraf ./development && rimraf -rf ./.cache"
   },
@@ -25,13 +25,10 @@
     "axios": "^0.21.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.13.10",
-    "@babel/plugin-transform-runtime": "^7.13.10",
-    "@babel/preset-env": "^7.13.10",
-    "@babel/preset-typescript": "^7.13.0",
-    "@babel/runtime-corejs3": "^7.13.10",
     "bulma": "^0.9.2",
+    "node-sass": "^5.0.0",
     "parcel-bundler": "^1.12.5",
+    "preact": "^10.5.13",
     "rimraf": "^3.0.2",
     "typescript": "^4.2.3"
   }
