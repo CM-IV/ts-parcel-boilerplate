@@ -32,7 +32,7 @@ export default class Body extends Preact.Component<any, any> {
                                             Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper a nunc ac porta. 
                                             Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper leo.</p>
                                             <figure class="image is-4by3">
-                                                <img src="https://bulma.io/images/placeholders/640x480.png"></img>
+                                                <img src="https://i.ibb.co/4mzrRw9/ines-alvarez-fdez-y-LYHin-GDhk-Q-unsplash-1.jpg" alt="ines-alvarez"> </img>
                                             </figure>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. 
                                             Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
