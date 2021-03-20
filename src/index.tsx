@@ -7,6 +7,7 @@ import Header from "./components/header";
 import Footer from "./components/footer";
 import About from "./about";
 import Account from "./account";
+import Pagination from "./components/pagination";
 
 
 const root = document.getElementById('app');
@@ -32,6 +33,7 @@ class Main extends Preact.Component<any, any> {
                         <Route path="/about" component={ About }></Route>
                         <Route path="/account" component={ Account }></Route>
                     </Switch>
+                    <Pagination />
                     <Footer />
                 </Router>
             </>
