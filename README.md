@@ -1,4 +1,5 @@
 # ts-parcel-boilerplate
+## By CMIV
 
 A boilerplate web app created with TypeScript and Preact using Parcel-Bundler.
 
