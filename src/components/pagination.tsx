@@ -1,5 +1,5 @@
 import * as Preact from "preact";
-
+import { Link } from "wouter-preact";
 
 export default class Pagination extends Preact.Component<any, any> {
 
@@ -15,17 +15,15 @@ export default class Pagination extends Preact.Component<any, any> {
             <>
                 <section>
                     <nav class="pagination is-centered" role="navigation" aria-label="pagination">
-                        <a class="pagination-previous" title="This is the first page" disabled>Previous</a>
-                        <a class="pagination-next">Next page</a>
                         <ul class="pagination-list">
                             <li>
-                                <a class="pagination-link is-current" aria-label="Page 1" aria-current="page">1</a>
+                                <Link class="pagination-link" aria-current="page" href="/docs">1</Link>
                             </li>
                             <li>
-                                <a class="pagination-link" aria-label="Goto page 2">2</a>
+                                <Link class="pagination-link" href="/docs/page2">2</Link>
                             </li>
                             <li>
-                                <a class="pagination-link" aria-label="Goto page 3">3</a>
+                                <Link class="pagination-link" href="/docs/page3">3</Link>
                             </li>
                         </ul>
                     </nav>
